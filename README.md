@@ -17,7 +17,13 @@ Ampliación para:
 
 	mv /etc/multipath.conf /etc/multipath.conf.back
 
+**XenServer 6+ <-> 6.2 **
+
 	wget https://raw.githubusercontent.com/JacobMulero/multipath/master/multipath.conf --no-check-certificate -O /etc/multipath.conf
+
+**XenServer 6.5 **
+
+	wget https://raw.githubusercontent.com/JacobMulero/multipath/master/multipath.conf --no-check-certificate -O /etc/multipath.xenserver/multipath.conf
 
 **reiniciar el servidor para que los cambios tenga efecto**
 
